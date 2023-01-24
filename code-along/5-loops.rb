@@ -8,4 +8,24 @@
 # end
 
 # Loop through tacos
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+index = 0
+taco = tacos[index]
+loop do 
+    if index == tacos.count 
+        break
+    end
+           
+    puts "#{taco} tacos!"
+    index = index + 1\
+end 
+
+puts "done"
+
+# Another method
+
+for taco in tacos
+    puts "#{taco} tacos!"
+end
+
+puts "done"
