@@ -50,13 +50,13 @@
 # home_team_score = 101
 # away_team_score = 101
 
-# if home_team_score > away_team_score
-#     puts "winner!"
-# elsif home_team_score < away_team_score
-#     puts "loser :("
-# else
-#     puts "tied meh..."
-# end
+if home_team_score > away_team_score
+    puts "winner!"
+elsif home_team_score < away_team_score
+    puts "loser :("
+else
+    puts "tied meh..."
+end
 
 # Combining Expressions
 
